@@ -15,7 +15,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of Drew" /> 
+      <img src="img/oldpic.png" alt="Avatar of Drew" /> 
     </div>
 
     <div style="clear:both"></div>
