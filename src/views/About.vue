@@ -4,13 +4,14 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Andrew Bondurant</strong>, I am a graduate from the Georgia Institute of Technology with a BS in Computer Science and a Minor in History. I have a passion for Game Design and Programming.
+        I love games because they <br/>
+        I started working with games during my third year of college.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">Check out the <router-link to="/game-projects">games</router-link> I have worked on and review my <router-link to="/resume">resume</router-link> as well.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a game designer. You can reach me at <a href="mailto:stdrew190@yahoo.com">stdrew190@yahoo.com</a> or through the <router-link to="/contact">contact me</router-link> page.</div>
     </div>
 
     <div class="photo">

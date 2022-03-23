@@ -28,8 +28,8 @@ export default Vue.extend({
 
 // Preload heavy images or gifs that are used in other pages
 Helpers.preloadImages([
-  "img/projects/project-1-icon.png",
-  "img/projects/project-2-icon.png",
+  "video/GunneMonke_Trailer.mp4",
+  "video/GunneMonke_AgentGunne_Gameplay.mp4",
   "img/projects/project-3-icon.png"
 ]);
 

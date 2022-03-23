@@ -1,106 +1,86 @@
 <template>
   <div>
     <h1>Resume</h1>
-
+    <!--
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
-      <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
-      <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      
+      I'm <strong>Andrew Bondurant</strong>, words about me.
+      <br />this is a new line talk about experience.
 
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
-        <div style="clear:both"></div>
-      </div>
     </div>
     <div class="photo">
       <img src="img/resume-photo.png" alt="Photo of John" />
     </div>
+    <div style="clear:both"></div>
+    -->
+    
+    <div style="margin-top:20px; margin-bottom:20px;">
+        <a class="download-link" href="d/Resume.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
+        <div style="clear:both"></div>
+    </div>
 
+    <h2>Skills</h2>
+
+    <div class="skill-set">
+      <SkillRate name="Unity" :rate="4" />
+      <SkillRate name="C#" :rate="4" />
+      <SkillRate name="Java" :rate="4" />
+    </div>
+    <div class="skill-set">
+      <SkillRate name="Unreal" :rate="3" />
+      <SkillRate name="C++" :rate="3" />
+      <SkillRate name="Github" :rate="4" />
+    </div>
     <div style="clear:both"></div>
 
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>Internship at Aptar CSP Technologies Inc</h3>
+      <h4>May 2021-August 2021</h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>Reviewed training program from other Aptar facilities and adapted them to fit the needs of CSP.</div>
+      <div>Worked with the VP of CSP to present the program to Department heads and managerial staff.</div>
+      <div>Researched, ordered and set up  25 tablets with the training program and other programs to acclimate new hires to their respective positions</div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <h3>Internship at CNI Consultants</h3>
+      <h4>June 2019 - August 2019</h4>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <div>Observed specialists remote into computers and setup and repair networks.</div>
+      <div>Reset computers and installed all the programs the clients needed to have a functioning workstation.</div>
 
-      <div>It's classified so I can't speak about it.</div>
+      <h3>Law Office of Maxine Wallace</h3>
+      <h4>May 2018-August 2018</h4>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div>Created and implemented a more organized system for closed files.</div>
+      <div>Organized all files and cases.</div>
+      <!-- <div class="tech-stack"> Put software and coding lang</div> -->
+      
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h2>Skills</h2>
-
-      <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
-      </div>
-
-      <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
-      </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
-
-      <h2>Languages</h2>
-
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
-
+      <h3>Georgia Institute of Technology - Aug 2017 to Dec 2021</h3>
+      <h4>Computer Science Degree with a Minor in History</h4>
+      <div>With a concentration in media and people</div>
+      
       <h2>Besides...</h2>
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <h3>I ❤️ Games</h3>
+        <div>Some of my favorite games are the Witcher 3, the Borderlands Series and the old Assassin Creeds</div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <h3>I 🧡 Music</h3>
+        <div>I like hard rock, and japanese rock, and non-screamo/growling metal such as symphonic metal.</div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <h3>I 💛 Books</h3>
+        <div>My favorite genres are fantasy and mythology.</div>
 
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
+        <h3>I 💚 Cats</h3>
+        <div>I have had cats my entire life and I have been volunteering for Classy Cats adoptions.</div>
 
       </div>
+      
     </div>
   </div>
 </template>

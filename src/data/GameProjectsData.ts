@@ -1,153 +1,199 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
-    `
+    new ProjectData("project-1", "Walpurgisnacht", "img/projects/walpurgisnacht.png", `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     <strong>Walpurgisnacht</strong> is a spell-slinging 2D top-down fighting game in which players face off against each other in a hail of curtain fire.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+        <iframe class="youtube" src="img/projects/walpurgisnacht.png" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Created with a team of 10 people</li>
+        <li>I coded the input map for the player</li>
+        <li>I coded the top down player controller and connected it to the input map</li>
+        <li>I co-wrote the controller interface for a physical controller and connected it to the player controls</li>
         </ul>
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+        <img class="pc-screenshot" src="img/projects/wals1.png" alt="Optimistic Chubby Screenshot" />
+        <img class="pc-screenshot" src="img/projects/wals2.png" alt="Optimistic Chubby Screenshot" />
+        <img class="pc-screenshot" src="img/projects/wals3.png" alt="Optimistic Chubby Screenshot" />
+        <img class="pc-screenshot" src="img/projects/wals4.png" alt="Optimistic Chubby Screenshot" />
     </div>
-    `, "#23bd69", true),
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
+    `, "#741075"),
+
+    new ProjectData("project-2", "Senpai, Me, and the Chocolate", "img/projects/smc_menu.png", `
     <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
+        <strong>Senpai, Me, and the Chocolate</strong> 2d action stealth game where you avoid being caught by the other male students to give your chocolate to senpai.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="img/projects/smc_menu.png" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>I collaborated with a group of 6 people</li>
+        <li>I coded all of movement mechanics into the game</li>
+        <li>I helped implement the stealth walk with the hearing mechanic for the enemy AI</li>
+        <li>I created and coded a distraction mechanic and a roll mechinaic but since Covid-19 hit before it was totally finished it was scrapped</li>
+        <li>I helped code the camera tracking</li>
         </ul>
     </div>
 
     <div class="paragraph">
     <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+    Windows build available: <a href="builds/SMC.zip" target="_blank">HERE</a>.
+        
     </div>
     </div>
 
     <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="img/projects/SMC1.png" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="img/projects/SMC2.png" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="img/projects/SMC3.png" alt="Singing Addict Screenshot" />
     </div>
-    `, "#5a78af"),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
+    `, "#c4355b"),
+
+    new ProjectData("project-3", "Overheat", "img/projects/OverheatBanner.png", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
+        <strong>Overheat</strong> is a 3rd person action BeatEmUp in a style similar to Devil May Cry or God of War. With the story being that Axel's precious creations have been stolen by his brother for dubious ends. Time for him to take it all back the only way he knows how: in style. Play as Axel and combo robot enemies into oblivion to take down your brother!
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/4upX3EyyPWI" title="Overheat video" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Collaborated with a group of 13 people</li>
+        <li>Created the Back Special attack</li>
+        <li>Created Move List and End Credits UI</li>
+        <li>Helped with the Level Design</li>
         </ul>
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Windows build available: <a href="builds/overheat-windows.zip" target="_blank">HERE</a>.
         </div>
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/projects/Overheat1.png" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/projects/Overheat2.png" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/projects/Overheat3.png" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/projects/Overheat4.png" alt="Drawing Overload Screenshot" />
+    </div>
+    `, "#f04c2e"),
+
+    new ProjectData("project-4", "Agent Gunne", "img/projects/BondMonke.png", `
+    <div class="paragraph">
+    <strong>Agent Gunne vs Hugh Mann Invasion</strong> is a 3rd person BeatEmUp game where you play as agent Gunne to defeat your enemies and reach the end. This game was done as a school project.
+    </div>
+    <div class="paragraph center">
+        <video controls>
+            <source src="video/GunneMonke_Trailer.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Worked with a team of 5 people for this class project</li>
+        <li>I created the collectable scripts</li>
+        <li>I created the death and respawn mechanics</li>
+        <li>I made the scripts for the checkpoints/rest areas</li>
+        <li>I created the mouse sensitivity script</li>
+        <li>I fixed the elevator so that the player could go up and down smoothly</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+        Windows and MAC build available: <a href="builds/GunneMonke.zip" target="_blank">HERE</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        GameplayVideo:
+    </div>
+    <div class="paragraph center">
+        <video controls>
+            <source src="video/GunneMonke_AgentGunne_Gameplay.mp4" type="video/mp4">
+        </video>
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
+
+    new ProjectData("project-5", "Gun With Legs", "img/projects/GunWithLegs_Menu.png", `
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
+        <strong>Gun With Legs</strong> is a 2d platformer where you play as a senitent gun. In this game as you fire your bullets you are also shooting your health away be careful.
+    </div>
+
+    <div class="paragraph center">
+        <iframe class="youtube" src="img/projects/GunWithLegs_Menu.png" frameborder="0" allowfullscreen></iframe>
     </div>
     
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Collaborated with a team of 11 people</li>
+        <li>I coded the script for the RailGun</li>
+        <li>I fixed enemy-player collisions so that the player did not launch weirdly</li>
         </ul>
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
+        Windows build available: <a href="builds/GunWithLegsBuild.zip" target="_blank">HERE</a>.
         </div>
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
-    `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
+        <img class="pc-screenshot" src="img/projects/gun1.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/gun2.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/gun3.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/gun4.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/gun5.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/gun6.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/gun7.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/gun8.png" alt="Cloud Drew Land Screenshot" />
+    </div>`, "#23bd69"),
+
+    new ProjectData("project-6", "Paravoid", "img/projects/paramenu.jpg", `
     <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
+        <strong>Paravoid</strong> is a singleplayer 3D platformer with a strong emphasis on an eerie, dream-like, and anxiety-inducing atmosphere. Step into a liminal nightmare and confront the call of the void.
     </div>
     
+    <div class="paragraph center">
+        <iframe class="youtube" src="img/projects/paramenu.jpg" frameborder="0" allowfullscreen></iframe>
+    </div>
+
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Worked with a group of 22 people</li>
+        <li>I coded the respawn and death mechanics</li>
+        <li>I created checkpoints script and linked it to the save script</li>
         </ul>
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Windows build available: <a href="builds/PARAVOID_FinalBuild.zip" target="_blank">HERE</a>.
         </div>
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
+        <img class="pc-screenshot" src="img/projects/para1.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/para2.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/para3.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/para4.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/para5.jpg" alt="Cloud Drew Land Screenshot" />
+    </div>`, "#5a78af")
 ];
