@@ -48,7 +48,7 @@ export default [
 
     <div class="paragraph">
     <div class="notice">
-    Windows build available: <a href="builds/SMC.zip" target="_blank">HERE</a>.
+    Windows build available: <a href="https://ff4ff14d-f903-498f-a616-e761da126e51.filesusr.com/archives/974cc4_e450f465bf23495798b993dc9afe4542.zip?dn=SMC-Virtual-Demo-Build2.zip" target="_blank">HERE</a>.
         
     </div>
     </div>
@@ -80,7 +80,7 @@ export default [
 
     <div class="paragraph">
         <div class="notice">
-        Windows build available: <a href="builds/overheat-windows.zip" target="_blank">HERE</a>.
+        Windows build available: <a href="https://drive.google.com/file/d/1lA8QLUZltEYcNnOkWLLG7l2OhGnk7ExA/view" target="_blank">HERE</a>.
         </div>
     </div>
 
@@ -114,7 +114,7 @@ export default [
 
     <div class="paragraph">
         <div class="notice">
-        Windows and MAC build available: <a href="builds/GunneMonke.zip" target="_blank">HERE</a>.
+        Windows and MAC build available: <a href="https://drive.google.com/file/d/1MqRSnuL4MK0KSNEMtJWKrCm8C7QyFhB6/view?usp=sharing" target="_blank">HERE</a>.
         </div>
     </div>
 
@@ -147,7 +147,7 @@ export default [
 
     <div class="paragraph">
         <div class="notice">
-        Windows build available: <a href="builds/GunWithLegsBuild.zip" target="_blank">HERE</a>.
+        Windows build available: <a href="https://drive.google.com/file/d/1fhViYgxJpHnGDi90HfuFxLDx6ltF-P7A/view?usp=sharing" target="_blank">HERE</a>.
         </div>
     </div>
 
@@ -182,7 +182,7 @@ export default [
 
     <div class="paragraph">
         <div class="notice">
-        Windows build available: <a href="builds/PARAVOID_FinalBuild.zip" target="_blank">HERE</a>.
+        Windows build available: <a href="https://ff4ff14d-f903-498f-a616-e761da126e51.filesusr.com/archives/52ef35_23a7358dd5bf475fa45395cd2e7f4046.zip?dn=PARAVOID_FinalBuild.zip" target="_blank">HERE</a>.
         </div>
     </div>
 
