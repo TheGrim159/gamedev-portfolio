@@ -97,9 +97,7 @@ export default [
     <strong>Agent Gunne vs Hugh Mann Invasion</strong> is a 3rd person BeatEmUp game where you play as agent Gunne to defeat your enemies and reach the end. This game was done as a school project.
     </div>
     <div class="paragraph center">
-        <video controls>
-            <source src="video/GunneMonke_Trailer.mp4" type="video/mp4">
-        </video>
+        <iframe class="youtube" src="https://www.youtube.com/embed/-tn4bWrCPDc" title="Gunne Monke trailer" frameborder="0" allowfullscreen></iframe>
     </div>
     
     <div class="paragraph">
@@ -121,12 +119,11 @@ export default [
     </div>
 
     <div class="paragraph center">
-        GameplayVideo:
+        Gameplay Video:
     </div>
     <div class="paragraph center">
-        <video controls>
-            <source src="video/GunneMonke_AgentGunne_Gameplay.mp4" type="video/mp4">
-        </video>
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/lbkrDBuDJyw" title="GunneMonke gameplay" frameborder="0" allowfullscreen></iframe>
     </div>
     `, "#383838"),
 
