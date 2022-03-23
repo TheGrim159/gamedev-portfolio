@@ -39,7 +39,7 @@
       <h3>Internship at Aptar CSP Technologies Inc</h3>
       <h4>May 2021-August 2021</h4>
 
-      <div>Reviewed training program from other Aptar facilities and adapted them to fit the needs of CSP.</div>
+      <div>Reviewed training programs from other Aptar facilities and adapted them to fit the needs of CSP.</div>
       <div>Worked with the VP of CSP to present the program to Department heads and managerial staff.</div>
       <div>Researched, ordered and set up  25 tablets with the training program and other programs to acclimate new hires to their respective positions</div>
 
