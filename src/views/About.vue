@@ -5,9 +5,10 @@
     <div class="paragraph">
       <div>
         I'm <strong>Andrew Bondurant</strong>, I am a graduate from the Georgia Institute of Technology with a BS in Computer Science and a Minor in History. I have a passion for Game Design and Programming.
-        I love video games because they can let you into other worlds that you can get lost in, relax and have fun escaping the real world. 
-        This is the same reason I love books, with the difference is that I get to control the character in the story and I can do it with my friends like D&D, but I can do it anywhere in the world. <br/>
-        I started working with games during my third year of college.
+        I love video games because they let you enter and get lost in other worlds while you relax and have fun escaping the real world. 
+        For these same reasons I love books, but the difference is that you get to control the character in the story. 
+        Video games also let you stay connected with friends like playing D&D, but you can do it from anywhere in the world. <br/>
+        I started working with games during my second year of college.
       </div>
 
       <div style="margin-top: 20px;">Check out the <router-link to="/game-projects">games</router-link> I have worked on and review my <router-link to="/resume">resume</router-link> as well.</div>
