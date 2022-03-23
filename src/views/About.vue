@@ -7,7 +7,7 @@
         I'm <strong>Andrew Bondurant</strong>, I am a graduate from the Georgia Institute of Technology with a BS in Computer Science and a Minor in History. I have a passion for Game Design and Programming.
         I love video games because they let you enter and get lost in other worlds while you relax and have fun escaping the real world. 
         For these same reasons I love books, but the difference is that you get to control the character in the story. 
-        Video games also let you stay connected with friends like playing D&D, but you can do it from anywhere in the world. <br/>
+        Video games also help you stay connected with friends like playing D&D, but you can do it from anywhere in the world. <br/>
         I started working with games during my second year of college.
       </div>
 
