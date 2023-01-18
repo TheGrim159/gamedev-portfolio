@@ -192,5 +192,38 @@ export default [
         <img class="pc-screenshot" src="img/projects/para3.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/para4.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/para5.jpg" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#5a78af")
+    </div>`, "#5a78af"),
+    new ProjectData("project-7", "ReDeSync", "img/projects/ReDeSyncmenu.png", `
+    <div class="paragraph">
+        <strong>ReDeSync</strong> is a stealth action-adventure game where the player takes on the mantle of ER-7, the last friendly robot in range of the task. The player has access to sneak abilities, melee and blocking, or the option of waiting against the enemy drones while trying to complete their task of detonating the ERBs, Earth Recovery Bombs. Standing in the way are enemy drones, whose goal is to attack the player and kill them, which "ends the mission." The game is a short adventure to restore earth after drones have wiped out a large part of the population and made life uninhabitable on earth.
+    </div>
+    
+    <div class="paragraph center">
+        <iframe class="youtube" src="img/projects/ReDeSyncmenu.png" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Worked with a team of 8 people</li>
+        <li>I created the save system which saves the player's location, health, battery, the number of abilities unlocked, metal and batteries collected, which level they are one, and enemy's health and location.</li>
+        <li>I made the menus for the Save System in the main menu, and the save system menu in the options menu.</li>
+        <li>I coded in the block ability for the player to reduce the damage taken by the enemies.</li>
+        <li>I implemented the enemy AI waypoint script and then edited it so that they don't break when loading a save game.</li>
+        <li>I created multiple enemy types such a tank enemy and an enemy that could see through invisibility among others and I made a special pickup that gave the player a popup screen that the player more of the story but I did not work on the game in the last 2 months of the games creation due to the team lead saying he had no more use for a developer and then removed these 2 features without telling me about it.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+        The game was published to Itch.io and the link is : <a href="https://deusgd.itch.io/redesync" target="_blank">HERE</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/ReDeSync1.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/ReDeSync2.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/ReDeSync3.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/ReDeSync4.jpg" alt="Cloud Drew Land Screenshot" />
+    </div>`, "#83DEC7")
 ];
