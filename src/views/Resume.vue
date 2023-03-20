@@ -22,14 +22,16 @@
     <h2>Skills</h2>
 
     <div class="skill-set">
-      <SkillRate name="Unity" :rate="4" />
-      <SkillRate name="C#" :rate="4" />
-      <SkillRate name="Java" :rate="4" />
+      <SkillRate name="Unity"/>
+      <SkillRate name="C#"/>
+      <SkillRate name="Java"/>
+      <SkillRate name="Jira"/>
     </div>
     <div class="skill-set">
-      <SkillRate name="Unreal" :rate="3" />
-      <SkillRate name="C++" :rate="3" />
-      <SkillRate name="Github" :rate="4" />
+      <SkillRate name="Unreal"/>
+      <SkillRate name="C++"/>
+      <SkillRate name="Github"/>
+      <SkillRate name="Trello"/>
     </div>
     <div style="clear:both"></div>
 

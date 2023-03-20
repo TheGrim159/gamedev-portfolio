@@ -225,5 +225,38 @@ export default [
         <img class="pc-screenshot" src="img/projects/ReDeSync2.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/ReDeSync3.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/ReDeSync4.jpg" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#83DEC7")
+    </div>`, "#83DEC7"),
+    new ProjectData("project-7", "Legend of Nazera: War", "img/projects/LegendOfNazeraMenu.jpg", `
+    <div class="paragraph">
+        <strong>Legend of Nazera: War</strong> Tower defense adventure where you recruit heroes and use them to take down the corruption.
+    </div>
+    
+    <div class="paragraph center">
+        <iframe class="youtube" src="img/projects/LegendOfNazeraMenu.jpg" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Worked with a team of 13 people</li>
+        <li>I made the save system which saves the player's menu settings and has the framework to save levels beaten, dialogues played and heros unlocked but since those features were not finished for the first release they are not in the game.</li>
+        <li>I designed and implemented 3 characters Ambrose the Mage, Cathbad the Druid, and Zorin the Summoner (though Zorin had to be cut due to time since the models could not be made in time). I also helped implement Nirxul the necromancer.</li>
+        <li>I created and implemented most of the visual effects used in the game by the player.</li>
+        <li>I designed the dialogue system that is used for the dialogue that is show in the level select scene, before the level starts, during the game for abilities and for the end of level.</li>
+        <li>I also helped to balance the different characters to try to make sure that all of the character were at a simular power level.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice">
+        The game was published to Steam and the link to look at the store page is : <a href="https://store.steampowered.com/app/2179190/Legend_Of_Nazera_War/" target="_blank">HERE</a>.
+        </div>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/ReDeSync1.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/ReDeSync2.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/ReDeSync3.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/ReDeSync4.jpg" alt="Cloud Drew Land Screenshot" />
+    </div>`, "#666431")
 ];
