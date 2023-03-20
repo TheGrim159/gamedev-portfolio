@@ -30,7 +30,9 @@ export default Vue.extend({
 Helpers.preloadImages([
   "video/GunneMonke_Trailer.mp4",
   "video/GunneMonke_AgentGunne_Gameplay.mp4",
-  "img/projects/project-3-icon.png"
+  "img/projects/project-3-icon.png",
+  "img/projects/LoN5.gif",
+  "img/projects/wals2.png"
 ]);
 
 </script>

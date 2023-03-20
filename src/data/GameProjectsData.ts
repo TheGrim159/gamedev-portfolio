@@ -254,9 +254,10 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/ReDeSync1.jpg" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="img/projects/ReDeSync2.jpg" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="img/projects/ReDeSync3.jpg" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="img/projects/ReDeSync4.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/LoN1.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/LoN2.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/LoN3.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/LoN4.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/LoN5.gif" alt="Cloud Drew Land Screenshot" />
     </div>`, "#666431")
 ];
