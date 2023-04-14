@@ -24,6 +24,7 @@
     <div class="skill-set">
       <SkillRate name="Unity"/>
       <SkillRate name="C#"/>
+      <SkillRate name="Visual Scripting"/>
       <SkillRate name="Java"/>
       <SkillRate name="Jira"/>
     </div>
@@ -37,6 +38,10 @@
 
     <div class="full-content">
       <h2>Work experience</h2>
+
+      <h3>Internship at Zygobot</h3>
+      <h4>September 2022-Current</h4>
+      <div> I have worked on 4 different games as a developer and as a Systems Designer</div>
 
       <h3>Internship at Aptar CSP Technologies Inc</h3>
       <h4>May 2021-August 2021</h4>
@@ -66,6 +71,8 @@
       <h3>Georgia Institute of Technology - Aug 2017 to Dec 2021</h3>
       <h4>Computer Science Degree with a Minor in History</h4>
       <div>With a concentration in media and people</div>
+      <h3>Full Sail University - May 2022 to May 2023</h3>
+      <h4>Masters Degree in Game Design</h4>
       
       <h2>Besides...</h2>
       <div>

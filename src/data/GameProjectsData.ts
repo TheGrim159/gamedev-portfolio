@@ -6,7 +6,7 @@ export default [
      <strong>Walpurgisnacht</strong> is a spell-slinging 2D top-down fighting game in which players face off against each other in a hail of curtain fire.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="img/projects/walpurgisnacht.png" frameborder="0" allowfullscreen></iframe>
+        <img src="img/projects/walpurgisnacht.png" width="900" min-width="700"/>
     </div>
 
     <div class="paragraph">
@@ -32,7 +32,7 @@ export default [
         <strong>Senpai, Me, and the Chocolate</strong> 2d action stealth game where you avoid being caught by the other male students to give your chocolate to senpai.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="img/projects/smc_menu.png" frameborder="0" allowfullscreen></iframe>
+        <img src="img/projects/smc_menu.png" width="900"></iframe>
     </div>
 
     <div class="paragraph">
@@ -76,12 +76,6 @@ export default [
         <li>Created Move List and End Credits UI</li>
         <li>Helped with the Level Design</li>
         </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available: <a href="https://drive.google.com/file/d/1lA8QLUZltEYcNnOkWLLG7l2OhGnk7ExA/view" target="_blank">HERE</a>.
-        </div>
     </div>
 
     <div class="paragraph center">
@@ -133,7 +127,7 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <iframe class="youtube" src="img/projects/GunWithLegs_Menu.png" frameborder="0" allowfullscreen></iframe>
+        <img src="img/projects/GunWithLegs_Menu.png" width="900"/>
     </div>
     
     <div class="paragraph">
@@ -168,7 +162,7 @@ export default [
     </div>
     
     <div class="paragraph center">
-        <iframe class="youtube" src="img/projects/paramenu.jpg" frameborder="0" allowfullscreen></iframe>
+        <img src="img/projects/paramenu.jpg" width="900"/>
     </div>
 
     <div class="paragraph">
@@ -199,7 +193,7 @@ export default [
     </div>
     
     <div class="paragraph center">
-        <iframe class="youtube" src="img/projects/ReDeSyncmenu.png" frameborder="0" allowfullscreen></iframe>
+        <img src="img/projects/ReDeSyncmenu.png" width="900"/>
     </div>
 
     <div class="paragraph">
@@ -226,13 +220,13 @@ export default [
         <img class="pc-screenshot" src="img/projects/ReDeSync3.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/ReDeSync4.jpg" alt="Cloud Drew Land Screenshot" />
     </div>`, "#83DEC7"),
-    new ProjectData("project-7", "Legend of Nazera: War", "img/projects/LegendOfNazeraMenu.jpg", `
+    new ProjectData("project-8", "Legend of Nazera: War", "img/projects/LegendOfNazeraMenu.jpg", `
     <div class="paragraph">
         <strong>Legend of Nazera: War</strong> Tower defense adventure where you recruit heroes and use them to take down the corruption.
     </div>
     
     <div class="paragraph center">
-        <iframe class="youtube" src="img/projects/LegendOfNazeraMenu.jpg" frameborder="0" allowfullscreen></iframe>
+        <img src="img/projects/LegendOfNazeraMenu.jpg" width="900"/>
     </div>
 
     <div class="paragraph">
@@ -259,5 +253,34 @@ export default [
         <img class="pc-screenshot" src="img/projects/LoN3.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/LoN4.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/LoN5.gif" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#666431")
+    </div>`, "#666431"),
+    new ProjectData("project-9", "Threads of Fate", "img/projects/ToF_menu.png", `
+    <div class="paragraph">
+        <strong>Threads of Fate</strong> is a first person shooter rpg where you play a knight getting rid of the enemies that have taken over a castle. This was a 1 month school project.
+    </div>
+    
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/qyVbp4G7kds" title="Threads of Fate Gameplay" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Worked with a team of 5 people</li>
+        <li>I made the save system which saves the player's menu settings and saves ammo, quest progression, guns equipped, health, experience and levels.</li>
+        <li>I designed and implemented the player's gun system, swap system and ammo pickup system.</li>
+        <li>I also made the lower half other the players hub ui.</li>
+        <li>I created and implemented the experience and leveling system.</li>
+        <li>I made the immunity and damage buff powerups.</li>
+        <li>I helped work on most of the other systems in the game to make sure that all of the systems implemented worked together.</li>
+        </ul>
+    </div>
+
+    <!--<div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/LoN1.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/LoN2.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/LoN3.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/LoN4.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/LoN5.gif" alt="Cloud Drew Land Screenshot" />
+    </div>-->`, "#9BCD50")
 ];
