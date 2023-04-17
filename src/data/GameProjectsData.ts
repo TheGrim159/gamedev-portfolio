@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-9", "Threads of Fate", "img/projects/ToF_menu.png", `
+    new ProjectData("project-9", "Threads of Fate", "img/projects/ToF_Menu.png", `
     <div class="paragraph">
         <strong>Threads of Fate</strong> is a first person shooter rpg where you play a knight getting rid of the enemies that have taken over a castle. This was a 1 month school project.
     </div>
