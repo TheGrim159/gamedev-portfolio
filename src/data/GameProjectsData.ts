@@ -72,7 +72,11 @@ export default [
         <img class="pc-screenshot" src="img/projects/LoN3.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/LoN4.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/LoN5.gif" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#666431", false, true),
+    </div>
+    <div class="paragraph">
+        I was a systems and character designer, developer, and somewhat of a VFXs artist for this game. Though I am not a great VFXs artist I was just willing to learn anything and the team needed it.<br/>
+        The tools used for this game were Unreal 5.1, blueprints, and Niagara for VFXs. <br/>
+        </div>`, "#666431", false, true),
 
     new ProjectData("project-7", "ReDeSync", "img/projects/ReDeSyncmenu.png", `
     <div class="paragraph">
