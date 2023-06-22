@@ -53,9 +53,21 @@ export default [
         <ul>
         <li>Worked with a team of 13 people</li>
         <li>I made the save system which saves the player's menu settings and has the framework to save levels beaten, dialogues played and heros unlocked but since those features were not finished for the first release they are not in the game.</li>
-        <li>I designed and implemented 3 characters Ambrose the Mage, Cathbad the Druid, and Zorin the Summoner (though Zorin had to be cut due to time since the models could not be made in time). I also helped implement Nirxul the necromancer.</li>
+        <li>I designed and implemented 3 characters Ambrose the Mage, Cathbad the Druid, and Zorin the Summoner (though Zorin had to be cut due to time since testthe models could not be made in time). I also helped implement Nirxul the necromancer.</li>
+            <ul>
+            <li> Ambrose was designed to have a play style where 1 of the units was a tank that would protect the other 2 lower health units that could deal a lot of damage. This was coupled with the 
+            abilities where 2 do damage overtime and debuff the enemy units and a buff that increases attack speed of friendly units.</li>
+            <li> The reason for the ablities to have effects and damage overtime was to compliment the slower playstyle of Ambrose and because the game had no overtime abilities yet.</li>
+            <li> Cathbad was designed to have to have 2 units that attacked faster but did less damage and a meduim range slow moving druid. With one of the abilities Cathbad summons a plant golem tank unit that heals it's allies,
+            then the other abilities is an arrow attack than slows the enemies, and then the final ability summons vines but does no damage but it buffs allies and debuffes enemies attack and movement speed.</li>
+            <li> The design orginally for Cathbad was to have him be an elf faction which is why the units had lower health but hit faster and harder and the plant golem tank was to be their shield, and this is why there is a arrow attack and the vines, but the character was changed to be celtic and norse tribal people. </li>
+            </ul>
         <li>I created and implemented most of the visual effects used in the game by the player.</li>
         <li>I designed the dialogue system that is used for the dialogue that is show in the level select scene, before the level starts, during the game for abilities and for the end of level.</li>
+            <ul>
+            <li> The inspiration for the dialogue's visuals and how it worked is based off of JRPG games dialogue, where the player is shown a portrait of the character talking and their name.</li>
+            <li> The same inspiration was used for the dialogue shown when an ability is used, but this was also added to give the player more infomation so they would know when the opponent used an ability since not all abilities are obvious and reduce the chance of confusion.</li>
+            </ul>
         <li>I also helped to balance the different characters to try to make sure that all of the character were at a simular power level.</li>
         </ul>
     </div>
@@ -76,6 +88,13 @@ export default [
     <div class="paragraph">
         I was a systems and character designer, developer, and somewhat of a VFXs artist for this game. Though I am not a great VFXs artist I was just willing to learn anything and the team needed it.<br/>
         The tools used for this game were Unreal 5.1, blueprints, and Niagara for VFXs. <br/>
+        <b> Post Mortem: </b> <br/>
+        This game was the first time I had ever truely dived into using the Unreal Engine and though I am proud of what I accomplished now that I have learned more I realized I could have done my 
+        work in coding for the game using more effient code practices such as creating more fuctions for repeated code. Another thing is that I wish I spent more time on learning how to balance the characters 
+        because even though I helped with the process of balancing the characters I wish I spent more time learning what makes a balanced character instead of just tweaking values based off of 
+        intuition and seeing if it worked. The final thing I wished I could have done in this game is adding more polish to the characters so that the vfxs of the abilities felt even more 
+        impactful in the game like adding camera shake to higher level abilities, becuase even though I tried to make all of the characters I designed to have visual indicators that the ability 
+        leveled up I wish I could have done even more. <br/>
         </div>`, "#666431", false, true),
 
     new ProjectData("project-7", "ReDeSync", "img/projects/ReDeSyncmenu.png", `
