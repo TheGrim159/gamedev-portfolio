@@ -68,7 +68,7 @@ export default Vue.extend({
 
 .project-item {
   height: 300px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 100%;
   cursor: pointer;
   position: relative;
@@ -77,6 +77,7 @@ export default Vue.extend({
 
 .project-item-image {
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   height: 100%;
   width: 100%;
@@ -107,7 +108,7 @@ filter: brightness(120%);
   .projects-list {
     max-width: 900px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     grid-auto-rows: minmax(250px, auto);
   }
@@ -120,6 +121,7 @@ filter: brightness(120%);
 
   .wide {
     grid-column-end: span 2;
+    background-size: cover;
   }
   .high {
     grid-row-end: span 2;

@@ -1,6 +1,44 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("project-10", "Melee Mayham", "img/projects/MM_Menu.png", `
+    <div class="paragraph">
+        <strong>Melee Mayham</strong> is a third person arena fighter where you play as a robot that has the task to fight and kill its opponent.
+    </div>
+    
+    <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/8J0FKobZMU4" title="Melee Mayham Gameplay" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Worked with a team of 4 people</li>
+        <li>I set up local multiplayer with the split screen view the spawn system and the controls setup.</li>
+        <li>I set up the hit detection and lock-on systems.</li>
+        <li>I implemented the knockdown, execution, and parry systems.</li>
+        <li>I created the options menu and the save system.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/MM_1.png" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/MM_2.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/MM_3.jpg" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/projects/MM_4.jpg" alt="Cloud Drew Land Screenshot" />
+    </div>
+    <div class="paragraph">
+        I was a developer for this game. <br/>
+        The tools I used for this game were Unreal 4.27 and blueprints. <br/>
+        Post Mortem: <br/>
+        In this game I was brought in later to make the game be local multiplayer (which I wanted to learn) instead of online multiplayer since it wasn't working. In this I figured out we had to redo a lot of the blueprints since they only worked for player 1, 
+        so this taught me to pay closer attention to how you call variables in blueprints. One issue with the development of this game is that this game was made in Zygobot (like most of the games on this list) which is the indie studio in Full Sail 
+        that I was an intern for as part of my degree program and the problem was that the project lead kept adding more features to the game.  Because of this there was no time left for the other developer and I to make sure that the features were all polished and 
+        bug free by the time we graduated and it is also the reason why the game is not currently released for people to play since the project lead is the only one working on it and he has little developer experience. I should have tried to
+        talk about my frustations about adding in new features to a game that to my knowledge was supposed to be released that week instead of polishing the game since I wanted to avoid conflict.
+    </div>
+    `, "#FC4205"),
+
     new ProjectData("project-9", "Threads of Fate", "img/projects/ToF_Menu.png", `
     <div class="paragraph">
         <strong>Threads of Fate</strong> is a first person shooter rpg where you play a knight getting rid of the enemies that have taken over a castle. This was a 1 month school project.
@@ -16,9 +54,19 @@ export default [
         <li>Worked with a team of 5 people</li>
         <li>I made the save system which saves the player's menu settings and saves ammo, quest progression, guns equipped, health, experience and levels.</li>
         <li>I designed and implemented the player's gun system, swap system and ammo pickup system.</li>
-        <li>I also made the lower half other the players hub ui.</li>
-        <li>I created and implemented the experience and leveling system.</li>
+        <ul>
+            <li>The weapons were designed so that the player could choose between 3 firing modes single fire, 3 round burst fire, and full automatic fire and the reason for this was that player could swap them depending range and how good they were on recoil control.</li>
+        </ul>
+        <li>I also made the lower half of the player's HUD ui which is the health bar, experience bar and the ammo bar.</li>
+        <ul>
+            <li>The hud was inspired by games that I have played that use bars to display information to players with the primary inspiration being the Borderlands series.</li>
+        </ul>
+        <li>I created and implemented the experience and leveling system which includes how the player gains experience and a leveling curve formula.</li>
         <li>I made the immunity and damage buff powerups.</li>
+        <ul>
+            <li>The damage buff powerup if the purple power up in the game and it makes the ammo bar flash purple as well to give the player feedback that their gun has been buffed.</li>
+            <li>The immunity powerup is not shown in the video but it is green and makes the health bar flash green so that the player knows they are immune to damage.</li>
+        </ul>
         <li>I helped work on most of the other systems in the game to make sure that all of the systems implemented worked together.</li>
         </ul>
     </div>
@@ -31,11 +79,12 @@ export default [
     </div>
     <div class="paragraph">
         I was a systems designer and developer for this game. <br/>
-        The tools used for this game were Unreal 5.1 and blueprints. <br/>
+        The tools I used for this game were Unreal 5.1 and blueprints. <br/>
         Post Mortem: <br/>
         I am proud of what my team was able to accomplish during this one month game even though we had some pretty major setbacks at the beginning. During this project I slowly became basically the project lead after the 2nd week and that was a new experience for me, 
-        but I believe that this experience will help me grow in the future for future projects and games. Another thing that I learned from this project is learning to prioritize on the important things essential to the game. The reason for this is that for the last week 
-        of the project we cut features that were no important to gameplay and focused on trying to polish what we had and bring it all together instead of each feature created by someone else feeling disconnected from the whole.
+        but I believe that this experience will help me grow in the future for future projects and games. Another lesson that I learned from this project is learning to prioritize on the important things essential to the game. The reason how I learned this lesson is that for the last week 
+        of the project we had to cut features that were not important to gameplay and focused on trying to polish what we had and bring it all together so that the game felt cohesive instead of disjointed with individual features. One thing we had to cut were 
+        related leveling system other than the player leveling up since the leveling system was not core to the gameplay loop of the game and though we were disappointed to get rid of it we had a better game at the end because we cut it.
     </div>
     `, "#9BCD50"),
 
@@ -87,7 +136,7 @@ export default [
     </div>
     <div class="paragraph">
         I was a systems and character designer, developer, and somewhat of a VFXs artist for this game. Though I am not a great VFXs artist I was just willing to learn anything and the team needed it.<br/>
-        The tools used for this game were Unreal 5.1, blueprints, and Niagara for VFXs. <br/>
+        The tools I used for this game were Unreal 5.1, blueprints, and Niagara for VFXs. <br/>
         <b> Post Mortem: </b> <br/>
         This game was the first time I had ever truely dived into using the Unreal Engine and though I am proud of what I accomplished now that I have learned more I realized I could have done my 
         work in coding for the game using more effient code practices such as creating more fuctions for repeated code. Another thing is that I wish I spent more time on learning how to balance the characters 
@@ -130,7 +179,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/ReDeSync3.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/ReDeSync4.jpg" alt="Cloud Drew Land Screenshot" />
     </div>`, "#83DEC7"),
-
+    /*
     new ProjectData("project-6", "Paravoid", "img/projects/paramenu.jpg", `
     <div class="paragraph">
         <strong>Paravoid</strong> is a singleplayer 3D platformer with a strong emphasis on an eerie, dream-like, and anxiety-inducing atmosphere. Step into a liminal nightmare and confront the call of the void.
@@ -162,7 +211,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/para4.jpg" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/para5.jpg" alt="Cloud Drew Land Screenshot" />
     </div>`, "#5a78af"),
-
+    
     new ProjectData("project-5", "Gun With Legs", "img/projects/GunWithLegs_Menu.png", `
     <div class="paragraph">
         <strong>Gun With Legs</strong> is a 2d platformer where you play as a senitent gun. In this game as you fire your bullets you are also shooting your health away be careful.
@@ -196,7 +245,7 @@ export default [
         <img class="pc-screenshot" src="img/projects/gun6.png" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/gun7.png" alt="Cloud Drew Land Screenshot" />
         <img class="pc-screenshot" src="img/projects/gun8.png" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#23bd69"),
+    </div>`, "#23bd69"), */
 
     new ProjectData("project-4", "Agent Gunne", "img/projects/BondMonke.png", `
     <div class="paragraph">
@@ -232,7 +281,7 @@ export default [
         <iframe class="youtube" src="https://www.youtube.com/embed/lbkrDBuDJyw" title="GunneMonke gameplay" frameborder="0" allowfullscreen></iframe>
     </div>
     `, "#383838"),
-
+    /*
     new ProjectData("project-3", "Overheat", "img/projects/OverheatBanner.png", `
     <div class="paragraph">
         <strong>Overheat</strong> is a 3rd person action BeatEmUp in a style similar to Devil May Cry or God of War. With the story being that Axel's precious creations have been stolen by his brother for dubious ends. Time for him to take it all back the only way he knows how: in style. Play as Axel and combo robot enemies into oblivion to take down your brother!
@@ -316,5 +365,5 @@ export default [
         <img class="pc-screenshot" src="img/projects/wals3.png" alt="Optimistic Chubby Screenshot" />
         <img class="pc-screenshot" src="img/projects/wals4.png" alt="Optimistic Chubby Screenshot" />
     </div>
-    `, "#741075"),
+    `, "#741075"),*/
 ];
