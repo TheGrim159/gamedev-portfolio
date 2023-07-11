@@ -40,7 +40,7 @@
       <h2>Work experience</h2>
 
       <h3>Internship at Zygobot</h3>
-      <h4>September 2022-Current</h4>
+      <h4>September 2022 - April 2023</h4>
       <div> I have worked on 4 different games as a developer and as a Systems Designer</div>
 
       <h3>Internship at Aptar CSP Technologies Inc</h3>
