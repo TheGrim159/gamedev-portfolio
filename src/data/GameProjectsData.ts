@@ -3,7 +3,7 @@ import ProjectData from '@/data/ProjectData.ts'
 export default [
     new ProjectData("project-10", "Melee Mayham", "img/projects/MM_Menu.png", `
     <div class="paragraph">
-        <strong>Melee Mayham</strong> is a third person arena fighter where you play as a robot that has the task to fight and kill its opponent.
+        <strong>Melee Mayham</strong> is a third person arena PVP fighter where you play as a robot that has the task to fight and kill its opponent.
     </div>
     
     <div class="paragraph center">
