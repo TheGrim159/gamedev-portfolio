@@ -9,7 +9,7 @@
 
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/resume-photo.png" alt="Photo of Drew" />
     </div>
     <div style="clear:both"></div>
     -->
@@ -77,7 +77,7 @@
       <h2>Besides...</h2>
       <div>
         <h3>I ❤️ Games</h3>
-        <div>Some of my favorite games are the Witcher 3, the Borderlands Series and the old Assassin Creeds</div>
+        <div>Some of my favorite games are the Witcher 3, the Borderlands Series and the old Assassin Creed games</div>
 
         <h3>I 🧡 Music</h3>
         <div>I like hard rock, and japanese rock, and non-screamo/growling metal such as symphonic metal.</div>

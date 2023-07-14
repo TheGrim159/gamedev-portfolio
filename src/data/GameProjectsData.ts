@@ -94,7 +94,7 @@ export default [
     </div>
     
     <div class="paragraph center">
-        <img src="img/projects/LegendOfNazeraMenu.jpg" width=100% width="900"/>
+        <iframe class="youtube" src="https://www.youtube.com/embed/XUOuHogSdZw" title="Nazera Gameplay" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
@@ -142,7 +142,7 @@ export default [
         work in coding for the game using more effient code practices such as creating more fuctions for repeated code. Another thing is that I wish I spent more time on learning how to balance the characters 
         because even though I helped with the process of balancing the characters I wish I spent more time learning what makes a balanced character instead of just tweaking values based off of 
         intuition and seeing if it worked. The final thing I wished I could have done in this game is adding more polish to the characters so that the vfxs of the abilities felt even more 
-        impactful in the game like adding camera shake to higher level abilities, becuase even though I tried to make all of the characters I designed to have visual indicators that the ability 
+        impactful in the game like adding camera shake to higher level abilities, because even though I tried to make all of the characters I designed to have visual indicators that the ability 
         leveled up I wish I could have done even more. <br/>
         </div>`, "#666431", false, true),
 
