@@ -121,7 +121,6 @@ filter: brightness(120%);
 
   .wide {
     grid-column-end: span 2;
-    background-size: cover;
   }
   .high {
     grid-row-end: span 2;
